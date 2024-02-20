@@ -47,13 +47,12 @@ body {
 
 .f-info-socials i {
   font-size: 1.2rem;
-  margin-right: 10px; /* Increase margin-right for spacing */
-  margin-left: 10px;
+  margin-right: 1rem; /* Increase margin-right for spacing */
 }
 
 .f-info {
   text-align: center;
-  height: auto;
+  height: 8rem;
   background-color: #ebebeb;
   display: flex;
   flex-wrap: wrap;
