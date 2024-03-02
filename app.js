@@ -10,7 +10,8 @@ const ExpressError = require("./utils/ExpressError.js");
 const { listingSchema } = require("./schema.js");
 const Review = require("./models/review.js");
 
-const MONGO_URL = "mongodb+srv://username:password@host/dbname";
+const MONGO_URL =
+  "mongodb+srv://vaishnav:Vaish1234@atlascluster.fra1lnf.mongodb.net/";
 
 main()
   .then(() => {
