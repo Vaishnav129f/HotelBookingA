@@ -1,7 +1,3 @@
-// const { default: mongoose } = require("mongoose");
-// const Listing = require("../models/listings");
-// const { listClasses } = require("@mui/material");
-
 const sampleListings = [
   {
     title: "Cozy Beachfront Cottage",
