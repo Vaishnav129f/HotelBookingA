@@ -19,7 +19,9 @@ const userRouter = require("./routes/user.js");
 // Body parser middleware for parsing request bodies
 app.use(express.urlencoded({ extended: true }));
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+// const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+const MONGO_URL =
+  "mongodb+srv://vaishnavsrivastavamzp:41QrPMdQupg8shWt@cluster0.4wtapc0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 main()
   .then(() => {
